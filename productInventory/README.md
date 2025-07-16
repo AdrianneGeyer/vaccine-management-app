@@ -1,18 +1,28 @@
-# Salesforce DX Project: Next Steps
+# Salesforce Vaccine Management App
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+A Salesforce-native solution to manage vaccination scheduling, inventory, patient records, and notifications.
 
-## How Do You Plan to Deploy Your Changes?
+## 🔧 Key Features
+- Patient record management using custom objects
+- LWC components for appointment booking and availability display
+- Apex triggers for inventory management and dose tracking
+- Flow automation for reminders and follow-ups
+- Dashboards for vaccine stock levels and usage trends
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## 🧪 Technologies Used
+- Lightning Web Components (LWC)
+- Apex Classes and Triggers
+- Salesforce Flows
+- Custom Metadata Types
+- Reports & Dashboards
 
-## Configure Your Salesforce DX Project
+## 🖼️ Screenshots
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+### Lightning Web Component: Product Inventory
+![Product Inventory](assets/images/product_component.png)
 
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+## 🚀 How to Deploy
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/AdrianneGeyer/vaccine-management-app.git
+   cd vaccine-management-app
