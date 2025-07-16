@@ -16,6 +16,11 @@ A Salesforce-native solution to manage vaccination scheduling, inventory, patien
 - Custom Metadata Types
 - Reports & Dashboards
 
+## 🖼️ Screenshots
+
+### Lightning Web Component: Product Inventory
+![Product Inventory](assets/images/product_component.png)
+
 ## 🚀 How to Deploy
 1. Clone the repo:
    ```bash
