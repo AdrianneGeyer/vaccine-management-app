@@ -1,0 +1,21 @@
+<template>
+    <lightning-card title="Product Inventory Tracker">
+        <div class="slds-p-around_medium">
+            <lightning-input 
+                label="Search by Manufacturer"
+                value={searchKey}
+                onchange={handleSearchChange}
+            ></lightning-input>
+        </div>
+        <template if:true={products}>
+            <lightning-datatable
+                key-field="Id"
+                data={products}
+                columns={columns}
+            ></lightning-datatable>
+        </template>
+        <template if:true={error}>
+            <p class="slds-text-color_error">{error}</p>
+        </template>
+    </lightning-card>
+</template>
